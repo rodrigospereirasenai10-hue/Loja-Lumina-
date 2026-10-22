@@ -1,0 +1,31 @@
+loja-lumina/
+│
+├── .gitignore                 # [INICIAL] Arquivos que o Git deve ignorar
+├── README.md                  # [INICIAL] Apresentação e instruções do projeto
+├── requirements.txt           # [INICIAL] Dependências Python
+├── app.py                     # [INICIAL] Ponto de entrada do backend
+│
+├── templates/                 # [INICIAL] Páginas HTML
+│   ├── base.html              # [INICIAL] Estrutura comum das páginas
+│   └── index.html             # [INICIAL] Página inicial da loja
+│
+├── static/                    # [INICIAL] Arquivos estáticos da interface
+│   ├── css/
+│   │   └── style.css          # [INICIAL] Estilos visuais
+│   ├── js/
+│   │   └── main.js            # [INICIAL] Interações da interface
+│   └── images/                # [POSTERIOR] Imagens reais do projeto
+│
+├── data/                      # [POSTERIOR] Dados demonstrativos
+│   └── products.json          # [POSTERIOR] Catálogo de produtos fictícios
+│
+├── tests/                     # [POSTERIOR] Testes automatizados
+│   └── test_app.py            # [POSTERIOR] Testes das rotas do aplicativo
+│
+├── notebooks/                 # [OPCIONAL] Experimentos do Google Colab
+│   └── exploracao.ipynb       # [OPCIONAL] Notebook de experimentação
+│
+├── .env.example               # [POSTERIOR] Modelo de variáveis de ambiente
+│
+└── .vscode/                   # [OPCIONAL] Configurações do VS Code
+    └── settings.json          # [OPCIONAL] Preferências do projeto
